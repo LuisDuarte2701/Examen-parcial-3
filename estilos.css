@@ -1,0 +1,69 @@
+@media (min-width: 768px){
+    body{
+        flex-direction: column;
+    }
+}
+
+h1{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    background-color: darkgrey;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-items: center;
+    justify-content: baseline;
+    align-items: center;
+    align-self: auto;
+    align-content: space-around;
+    align-content: space-between;
+    padding: 10px;
+}
+
+img{
+    background-color: white;
+    padding: 10px;
+}
+
+p{
+    align-content: center;
+    justify-content: baseline;
+}
+
+button{
+    display: flex;
+    background-color: #7850da;
+    color: white;
+    padding: 10px;
+    align-items: end;
+}
+
+footer{
+    display: flex;
+    background-color: purple;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+}
